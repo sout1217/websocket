@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>홈페이지</title>
+</head>
+<div th:replace="common/header"></div>
+<body>
+
+<div class="container mt-5">
+    <a class="btn btn-primary" th:href="@{/sign-up}">회원가입 페이지</a>
+    <a class="btn btn-primary" th:href="@{/sign-in}">로그인 페이지</a>
+</div>
+
+</body>
+</html>
